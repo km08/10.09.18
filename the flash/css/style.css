@@ -1,0 +1,352 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#header{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	text-align: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	background-color: #ff3333;
+	color: gold;
+	font-family: 'Hi Melody';
+	font-size: 50px;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+}
+.header_name{
+	margin-left: 350px;
+
+}
+.flash_info{
+	margin-top: 50px;
+	margin-bottom:50px;
+	margin-left: 100px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	text-align: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.about{
+	padding-left: 15px;
+}
+.about p{
+	font-family: 'Mali';
+	font-size: 15px;
+}
+.flashlogo{
+	height: 350px;
+	width: 350px;
+}
+.flash_bottom{
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	-ms-align-items: center;
+	align-items: center;
+	margin-left: 600px;
+	margin-bottom: 50px;
+}
+.block-2{
+	background: url(../img/wp.jpg) no-repeat center center;
+	height: 650px;
+	color: #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.block-2 p{
+	margin-top: 380px;
+	font-size: 50px;
+	font-family: 'Shadows Into Light';
+
+}
+.block-3{
+	margin-top: 50px;
+}
+.block-3 h3{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Gloria Hallelujah';
+}
+.info{
+	margin-top: 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.flashes{
+	width: 650px;
+	height: 400px;
+}
+.flash h4{
+	font-family: 'Hi Melody';
+	font-size: 40px;
+}
+.flash p{
+	width: 600px;
+	font-family: 'Hi Melody';
+	font-size: 22px;
+}
+.btn{
+	margin-top: 10px;
+	width: 150px;
+	height: 45px;
+	border-radius: 10px;
+	background-color: #fff;
+	border: 2px solid black;
+	font-size: 14px;
+}
+.btn:hover{
+	background-color: #ff3333;
+	transition: 0.3s;
+	color: #fff;
+}
+.block-4{
+	background: url(../img/theflash.jpg) no-repeat center center;
+	height: 600px;
+	margin: 50px 0px;
+}
+.block-4_main h4{
+	text-align: center;
+	color: #fff;
+	padding-top: 90px;
+	font-family: 'Amatic SC';
+	font-size: 60px;
+}
+.serials{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.tvflash{
+	margin-bottom: 15px;
+}
+.tvflash img{
+	width: 500px;
+	height: 300px;
+
+}
+.tvflash h4{
+	font-family:'Fjalla One';
+	font-size: 25px;
+	padding: 10px 0px;
+}
+.tvflash p{
+	width: 600px;	
+	font-family: 'Varela Round';
+}
+.animation img{
+	width: 150px;
+	height: 150px;
+}
+.animation{
+	 width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    animation-name: flash;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    margin-top: 25px;
+}
+@keyframes flash {
+     0%   {background-color: ; left:1200px; top:0px;}
+    50%  {background-color: ; left:600px; top:0px;}
+    100%  {background-color: ; left:0px; top:0px;}
+  
+}
+#comments{
+	margin-top: 50px;
+	padding-bottom: 20px;
+	background-color: #ff4d4d;
+}
+.comm{
+	border-bottom: 5px solid black;
+	border-radius: 5px;
+	text-align: center;
+	width: 1000px;
+	-ms-align-items: center;
+	align-items: center;
+	font-size: 30px;
+	margin-left: 180px;
+	color: #000000;
+	font-family: 'Permanent Marker';
+	color: #fff;
+	padding-top: 20px;
+}
+.name{
+	margin-top: 20px;
+	padding-left: 10px;
+	font-family: 'Ranga';
+	font-size: 22px;
+
+}
+.input{
+	margin-left: 10px;
+	width: 250px;
+	height: 50px;
+	border-radius: 14px;
+	border: 1px solid black;
+	padding: 10 10;
+}
+.comment{
+	margin-left: 10px;
+	width: 500px;
+	height: 200px;
+	border-radius: 20px;
+	border: 1px solid black;
+	padding: 10 10;
+
+}
+.com_btn{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 100px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: red;
+	color: #fff;
+}
+.com_btn:hover{
+	background-color: #ff4d4d;
+	color: #fff;
+}
+
+
+
+@media(min-width:321px) and (max-width:700px){
+	#header{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		-moz-flex-direction: row;
+		-ms-flex-direction: row;
+		-o-flex-direction: row;
+		flex-direction: row;
+		width: 1300px;
+	}
+	.flash_info{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		text-align: center;
+	}
+	.flash_prof{
+		padding-left: 750px;
+	}
+	.about p{
+		text-align: center;
+		padding-left: 750px;
+		width: 800px;
+	}
+	.flashlogo{
+		padding-left: 750px;
+		width: 200px;
+		height: 200px;
+	}
+	.flash_bottom{
+		display: none;
+	}
+	.block-2,.block-4{
+		width: 1300px;
+	}
+	.block-3 h3{
+	padding-left: 400px;
+	width: 400px;
+	}
+	.info,.serials{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		margin-left: 200px;
+		width: 900px;
+	}
+	.flash h4,.tvflash h4{
+		text-align: center;
+	}
+	.flashes,.flash p,.serials img,.serials p{
+		width: 100%;
+	}
+	.btn{
+		margin-bottom: 10px;
+		margin-left: 380px;
+	}
+#comments{
+	width: 1300px;
+	height: 600px;
+}
+.main_comm{
+	text-align: center;
+}
+}
+
+
+.block-6{
+	/*display: none;*/
+}
